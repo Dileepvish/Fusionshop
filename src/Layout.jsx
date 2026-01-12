@@ -3,7 +3,7 @@ import { Footer } from "./components/Footer";
 import { Outlet } from "react-router";
 import { titles } from "./utills/titles";
 import { useLocation } from "react-router";
-import { Online } from "./components/online";
+import { Online } from "./components/Online";
 import { useEffect } from "react";
 import { CartProvider } from "./utills/Context/CartContext"; // named import
 import {WishProvider} from "./utills/Context/wishContext"; // default import
